@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Patterns</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url(socialmedialogos.png);
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: left;
+            align-items: center;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .opaque-box{
+            background-color: whitesmoke;
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 800px;
+            text-align: center;
+            margin-top:100px;
+        }
+        header{
+            background-color: black;
+            color:white;
+            padding:20px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .logo{
+            font-size: 24px;
+            font-weight: bold;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">UX/UI Ethics</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="darkpatterns.html">Dark Patterns</a></li>
+                <li><a href="addictivedesign.html">Addictive Design</a></li>
+                <li><a href="ethicalconsiderations.html">Ethical Considerations</a></li>
+                <li><a href="Resources.html">Resources</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="opaque-box">
+        <h1>Hard to Cancel</h1>
+        <h4>Definition</h4>
+        <p>
+            Hard to cancel (aka "Roach Motel") is a deceptive pattern where it is easy to sign up for a service or subscription, but very difficult to cancel it. This typically involves hiding the cancellation option, requiring users to call customer services to cancel, and making the cancellation process overly complex and time-consuming. This can cause users to give up trying to cancel, and continue paying for the service for a longer period.
+        </p>
+        <h4>Example</h4>
+        <p>
+            The New York Times made it easy to sign up for a subscription, but difficult to cancel, as users have reported being required to call customer service to cancel, waiting on hold for long periods, or being redirected to other web pages without being able to cancel their subscription. This leads to users paying for a service they no longer want or need. In one test it took roughly 8 minutes of conversation with a customer services rep to successfully cancel a subscription. Conversely, it takes a matter of seconds to create a new subscription.
+        </p>
+    </div>
+</body>

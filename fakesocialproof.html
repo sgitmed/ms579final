@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Patterns</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url(socialmedialogos.png);
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: left;
+            align-items: center;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .opaque-box{
+            background-color: whitesmoke;
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 800px;
+            text-align: center;
+            margin-top:100px;
+        }
+        header{
+            background-color: black;
+            color:white;
+            padding:20px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .logo{
+            font-size: 24px;
+            font-weight: bold;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">UX/UI Ethics</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="darkpatterns.html">Dark Patterns</a></li>
+                <li><a href="addictivedesign.html">Addictive Design</a></li>
+                <li><a href="ethicalconsiderations.html">Ethical Considerations</a></li>
+                <li><a href="Resources.html">Resources</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="opaque-box">
+        <h1>Fake Social Proof</h1>
+        <h4>Definition</h4>
+        <p>
+            The fake social proof deceptive pattern creates an illusion of popularity and credibility by presenting users with falsified or exaggerated endorsements, such as reviews, testimonials, or activity messages. This manipulation preys on the social proof cognitive bias, in which which individuals are likely to conform to the behaviour of others. It is a shortcut that allows people to avoid the hard work of carrying out a critical evaluation of their own. By using the fake social proof deceptive pattern, providers can trick users into making a purchase or engaging with their offerings.
+        </p>
+        <h4>Example</h4>
+        <p>
+            Beeketing is a marketing automation company that makes software plugins for eCommerce stores. One of their products is called "Sales Pop". It causes an activity message overlay to appear on screen containing claims like “9 customers have bought item x together with item y” or “Alycia in San Francisco just bought item x 4 minutes ago”, as you can see in the first image below. In the Sales Pop documentation, they provide a guide outlining how to use the product to create a convincing fake scarcity deceptive pattern. As you can see in the second image, the store owner can pick a radio button telling the product to generate random locations, and a random "time ago".
+        </p>
+        <img src="beeketing1.png" height="550" width="700">
+        <img src="beeketing2.png"height="550" width="700">
+    </div>
+</body>

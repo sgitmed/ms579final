@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Patterns</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url(socialmedialogos.png);
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: left;
+            align-items: center;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .opaque-box{
+            background-color: whitesmoke;
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 800px;
+            text-align: center;
+            margin-top:100px;
+        }
+        header{
+            background-color: black;
+            color:white;
+            padding:20px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .logo{
+            font-size: 24px;
+            font-weight: bold;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">UX/UI Ethics</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="darkpatterns.html">Dark Patterns</a></li>
+                <li><a href="addictivedesign.html">Addictive Design</a></li>
+                <li><a href="ethicalconsiderations.html">Ethical Considerations</a></li>
+                <li><a href="Resources.html">Resources</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="opaque-box">
+        <h1>Disguised Ads</h1>
+        <h4>Definition</h4>
+        <p>
+            The disguised ads deceptive pattern works by deliberately blurring the line between actual content and advertising, creating confusion for users. These ads are often designed to look like interface elements, related articles, or other content that users might be interested in, making it more likely that users will click on them. By doing this, website owners may generate more revenue from ad impressions, and advertisers may benefit from increased clickthrough rates that may result in more sales.
+        </p>
+        <h4>Example</h4>
+        <p>
+            Softpedia, a popular software download website, often uses disguised ads on their software download pages to boost ad revenue. Their approach involves displaying advertisements with a prominent download button that closely resembles the actual download button for the desired software. This leads users to mistakenly click on the ad, thinking they are downloading the software.
+        </p>
+        <img src="softpedia.png" height="550" width="7000">
+    </div>
+</body>
